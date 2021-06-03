@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
@@ -13,30 +21,33 @@
 <body>
 
     <header>
+        <div class="main-logo">
 
-        <img src="img/logo.png" alt="">
-
-        <h3>Delicious</h3>
-
-        <p>THE BEST FOOD BLOG ON THE WEB.
-        </p>
+            <img src="img/logo.png" alt="">
+            
+            <h3>Delicious</h3>
+            
+            <p>THE BEST FOOD BLOG ON THE WEB.
+            </p>
+        </div>
 
         <nav>
             <ul>
-                <li><a href="#"><img src="img/fb-icon.png" alt=""></a></li>
-                <li><a href="#"><img src="img/twit-icon.png" alt=""></a></li>
-                <li><a href="#"><img src="img/flic-icon.png" alt=""></a></li>
-                <li><a href="#"><img src="img/gp-icon.png" alt=""></a></li>
-                <li><a href="#"><img src="img/insta-icon.png" alt=""></a></li>
-                <li><a href="#"><img src="img/pint-icon.png" alt=""></a></li>
                 <li><a href="#"><img src="img/rss-icon.png" alt=""></a></li>
+                <li><a href="#"><img src="img/pint-icon.png" alt=""></a></li>
+                <li><a href="#"><img src="img/insta-icon.png" alt=""></a></li>
                 <li><a href="#"><img src="img/mail-icon.png" alt=""></a></li>
+                <li><a href="#"><img src="img/gp-icon.png" alt=""></a></li>
+                <li><a href="#"><img src="img/flic-icon.png" alt=""></a></li>
+                <li><a href="#"><img src="img/twit-icon.png" alt=""></a></li>
+                <li><a href="#"><img src="img/fb-icon.png" alt=""></a></li>
             </ul>
         </nav>
-
+            <!-- <hr> -->
     </header>
 
     <main>
+        <hr>
 
         <section id="topSection">
 
@@ -51,20 +62,21 @@
 
             <img src="img/choco-pizza.png" alt="choco-pizza">
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reprehenderit, ad dolor, cumque veniam
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reprehenderit, ad dolor, cumque veniam
                 fuga animi aperiam quia dignissimos similique modi nesciunt minima? Maxime doloribus quos nemo,
-                consequuntur esse cumque!</p>
+                consequuntur esse cumque!</p><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam culpa commodi eligendi non minima ullam
                 sequi quia ducimus ex odio vero earum accusamus necessitatibus enim soluta, asperiores dolorem nostrum
-                cupiditate?</p>
+                cupiditate?</p><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae vel magni perferendis ut totam? Non
                 enim officiis porro unde maiores, molestiae, laboriosam ad, eligendi eum cumque exercitationem
                 aspernatur accusantium soluta.</p>
-
-            <img src="img/list-bg.png" alt="list-bg">
-            <form>
-                <!-- <fieldset id="recipe"> -->
-                <div id="left">
+                
+                <section id="sectionForm">
+                <img src="img/list-bg.png" alt="list-bg">
+                <form>
+                    <fieldset id="recipe">
+                    <div id="left">
                     <input type="checkbox" id="checkbox1" name="checkbox1">
                     <label for="checkbox1">11/2 cup milk</label>
                     <br>
@@ -113,13 +125,15 @@
                     <input type="checkbox" id="checkbox12" name="checkbox12">
                     <label for="checkbox12">1 cup honey roasted pecans, roughly chopped</label>
                     <br>
-                    <!-- </fieldset> -->
                 </div>
+            </fieldset>
             </form>
+        </section>
 
 
 
         </section>
+        <hr>
         <section id="downSection">
             <img src="img/van-pic.png" alt="van-pic">
             <h3>Venessa Stevenson</h3>
@@ -129,14 +143,16 @@
 
 
         </section>
-
     </main>
 
+
     <footer>
-        <div>
-            <img src="img/logo.png" alt="">
+        <hr id="footerHr">
+        <div id="footerDIV1">
+            <img src="img/logo.png" alt=""></div>
+        <div id="footerDIV2">
             <p>Delicious &copy; 2013 . ALL Ritghts Reserved.</p>
-            <p>Proudly published with Rahaf</p>
+            <p>Proudly published with Rahaf & Bashar</p>
         </div>
 
     </footer>
